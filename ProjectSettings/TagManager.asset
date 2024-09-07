@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BodyBase
+    uniqueID: 595381387
+    locked: 0
+  - name: BodyAccesory
+    uniqueID: 3203593775
+    locked: 0
