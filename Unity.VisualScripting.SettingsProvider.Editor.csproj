@@ -60,14 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\BackupSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\LinkerPropertyProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\CustomPropertyProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProviderView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\AssemblyOptionsSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\TypeOptionsSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProviderView.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\ScriptReferenceResolverSettings.cs" />
   </ItemGroup>
@@ -432,7 +432,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@2.4.2\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">
@@ -479,8 +483,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

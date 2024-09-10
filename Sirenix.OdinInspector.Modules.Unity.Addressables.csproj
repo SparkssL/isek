@@ -60,14 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\AddressablesInspectors.cs" />
     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Internal\OdinAddressableReflection.cs" />
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Internal\OdinAddressableReflectionValidator.cs" />
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\AssetReferenceValidator.cs" />
     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\AssetLabelReferenceValidator.cs" />
     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\MissingAddressableGroupReferenceValidator.cs" />
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\CheckResourcesToAddressableDuplicateDependenciesValidator.cs" />
     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\CheckDuplicateBundleDependenciesValidator.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\AddressablesInspectors.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Internal\OdinAddressableReflectionValidator.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\AssetReferenceValidator.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\CheckResourcesToAddressableDuplicateDependenciesValidator.cs" />
     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Modules\Unity.Addressables\Validators\DisallowAddressableSubAssetFieldAttributeValidator.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -428,7 +428,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@2.4.2\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">
@@ -473,6 +477,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

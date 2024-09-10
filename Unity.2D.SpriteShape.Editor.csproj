@@ -61,22 +61,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\AngleRangeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\AngleRangeView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\ObjectMenuCreation\AssetCreation.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\EditorSpriteGUIUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeControllerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeAssetPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeHandleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SceneDragAndDrop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\AngleRangeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\ObjectMenuCreation\AssetCreation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\SpriteShapeEditorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.4\Editor\AngleRangeGUI.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -441,7 +441,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@2.4.2\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">
@@ -488,8 +492,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

@@ -56,7 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\Yajie\Files\Unity Project\isek\Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -64,13 +63,13 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestReportGraph\SampleGroupAdditionalData.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\UIElements\ToolbarWithSearch.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestReportGraph\SamplePoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestRunBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\PerformanceTestBuildAssemblyFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\PerformanceTestRunSaver.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestResultXmlParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestReportGraph\TestReportWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestReportGraph\TestListTable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestRunBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestResultXmlParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.test-framework.performance@3.0.3\Editor\TestReportGraph\TestReportShader.shader" />

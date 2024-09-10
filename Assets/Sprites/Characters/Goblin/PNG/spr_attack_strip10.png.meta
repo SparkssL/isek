@@ -115,7 +115,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,9 +134,9 @@ TextureImporter:
       name: spr_attack_strip10_1
       rect:
         serializedVersion: 2
-        x: 86
+        x: 96
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,9 +155,9 @@ TextureImporter:
       name: spr_attack_strip10_2
       rect:
         serializedVersion: 2
-        x: 172
+        x: 192
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,9 +176,9 @@ TextureImporter:
       name: spr_attack_strip10_3
       rect:
         serializedVersion: 2
-        x: 258
+        x: 288
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,9 +197,9 @@ TextureImporter:
       name: spr_attack_strip10_4
       rect:
         serializedVersion: 2
-        x: 344
+        x: 384
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -218,9 +218,9 @@ TextureImporter:
       name: spr_attack_strip10_5
       rect:
         serializedVersion: 2
-        x: 430
+        x: 480
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -239,9 +239,9 @@ TextureImporter:
       name: spr_attack_strip10_6
       rect:
         serializedVersion: 2
-        x: 516
+        x: 576
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -260,9 +260,9 @@ TextureImporter:
       name: spr_attack_strip10_7
       rect:
         serializedVersion: 2
-        x: 602
+        x: 672
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -281,9 +281,9 @@ TextureImporter:
       name: spr_attack_strip10_8
       rect:
         serializedVersion: 2
-        x: 688
+        x: 768
         y: 0
-        width: 86.4
+        width: 96
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -294,27 +294,6 @@ TextureImporter:
       bones: []
       spriteID: a517a35c36b806e4e8d59454a7ce454b
       internalID: -2078265235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_attack_strip10_9
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 0
-        width: 86.4
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68f33a9e27acded40a2ce7d776ad3286
-      internalID: 641983323
       vertices: []
       indices: 
       edges: []
@@ -339,7 +318,6 @@ TextureImporter:
       spr_attack_strip10_6: 321605687
       spr_attack_strip10_7: -206540830
       spr_attack_strip10_8: -2078265235
-      spr_attack_strip10_9: 641983323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

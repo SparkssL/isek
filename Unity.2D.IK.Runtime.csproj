@@ -61,19 +61,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solvers\FABRIK2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solver2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKManager2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solvers\CCD2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\LimbSolver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solver2DMenuAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKChain2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\FabrikSolver2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\CCDSolver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solvers\Limb.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IconUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKManager2DEditorData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solvers\FABRIK2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Solver2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKManager2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\IKChain2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\CCDSolver2D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.animation@9.1.1\IK\Runtime\Unity.2D.IK.Runtime.asmdef" />
@@ -432,7 +432,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@2.4.2\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">
@@ -477,6 +481,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

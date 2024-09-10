@@ -61,10 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\ImagePacker\ImagePackNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\ImagePacker\ImagePacker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\InspectorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\ImagePacker\ImagePackNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\InspectorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\ImagePacker\ImagePackerDebugEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.3\Editor\VisualElementExtensions.cs" />
@@ -430,7 +430,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@2.4.2\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">
@@ -477,8 +481,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

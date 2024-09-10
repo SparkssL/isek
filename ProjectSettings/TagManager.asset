@@ -41,9 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: BodyBase
+  - name: BehindGroundObject
+    uniqueID: 3790803137
+    locked: 0
+  - name: GroundObject
+    uniqueID: 4282992397
+    locked: 0
+  - name: DynamicBase
     uniqueID: 595381387
     locked: 0
-  - name: BodyAccesory
+  - name: DynamicTop
     uniqueID: 3203593775
+    locked: 0
+  - name: HUD
+    uniqueID: 2476511675
     locked: 0
